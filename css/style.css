@@ -22,6 +22,14 @@
   border-radius: 15px;
 }
 
+@media (max-width: 800px) {
+  .todo-app {
+    width: 90%;
+    min-width: auto; 
+    max-width: 300px;
+  }
+}
+
 .header-container {
   display: flex;
   align-items: center;
